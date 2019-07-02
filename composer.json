@@ -1,0 +1,19 @@
+{
+    "name": "zshttp/http",
+    "description": "zshttp is a PHP HTTP request library",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhou san",
+            "email": "527523251@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+	"psr-4":{
+		"zshttp\\http\\":"src/"
+	}
+    }
+}
